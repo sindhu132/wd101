@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechTalent Hub - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    header ul {
+      list-style: none;
+      display: flex;
+    }
+    header ul li {
+      margin-left: 20px;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-color: #f0f0f0;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .featured-services {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 20px;
+    }
+    .service {
+      text-align: center;
+    }
+    .service img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    .service h3 {
+      font-size: 24px;
+    }
+    .service p {
+      font-size: 16px;
+    }
+    .testimonials {
+      background-color: #f0f0f0;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+    }
+    .testimonial p {
+      font-size: 18px;
+    }
+    footer {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TechTalent Hub</h1>
+    <ul>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#job-seekers">Job Seekers</a></li>
+      <li><a href="#employers">Employers</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="#Resume">Resume</a></li>
+    </ul>
+  </header>
+  <div class="hero">
+    <h2>Find Your Perfect Tech Talent Here</h2>
+    <p>Connect with skilled software engineers, product managers, data scientists, and more for your company's growth.</p>
+    <a href="#post-job" style="background-color: #007BFF; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Post a Job</a>
+  </div>
+  <div class="featured-services">
+    <div class="service">
+      <img src="software_engineer_icon.png" alt="Software Engineer">
+      <h3>Software Engineers</h3>
+      <p>Explore a diverse talent pool of skilled software engineers ready to take your projects to new heights.</p>
+    </div>
+    <div class="service">
+      <img src="product_manager_icon.png" alt="Product Manager">
+      <h3>Product Managers</h3>
+      <p>Hire experienced product managers who can lead your product development with precision and vision.</p>
+    </div>
+    <div class="service">
+      <img src="data_scientist_icon.png" alt="Data Scientist">
+      <h3>Data Scientists</h3>
+      <p>Discover data scientists who can harness the power of data to drive informed business decisions.</p>
+    </div>
+  </div>
+  <div class="testimonials">
+    <div class="testimonial">
+      <p>"TechTalent Hub helped us find the perfect data scientist for our AI-driven project. Highly recommended!"</p>
+      <p>- John Doe, CEO at XYZ Tech Solutions</p>
+    </div>
+    <div class="testimonial">
+      <p>"The platform is user-friendly and provides great candidate matches. We found our top-notch product manager here!"</p>
+      <p>- Jane Smith, HR Manager at ABC Software</p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 TechTalent Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
